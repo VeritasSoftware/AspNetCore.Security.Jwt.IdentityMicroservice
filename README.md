@@ -16,6 +16,8 @@ The solution comprises of 2 projects.
 
 The Identity Microservice does the authentication and serves the JWT token.
 
+![Identity Microservice Swagger](https://github.com/VeritasSoftware/AspNetCore.Security.Jwt.IdentityMicroservice/blob/master/IdentityMicroserviceSwagger.png)
+
 ### XYZ.Api
 
 The Api uses the token.
@@ -25,3 +27,5 @@ The Api uses the **Security Client** for the Swagger integration.
 The Client renders an **Authorize** button in Swagger to post the token tothe secured Api endpoint.
 
 The Api endpoint is secured by the **Authorize** attribute.
+
+![Client API Swagger](https://github.com/VeritasSoftware/AspNetCore.Security.Jwt.IdentityMicroservice/blob/master/ClientAPISwagger.png)
