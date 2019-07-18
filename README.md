@@ -1,5 +1,7 @@
 # AspNetCore.Security.Jwt.IdentityMicroservice
 
+[![Build Status](https://travis-ci.com/VeritasSoftware/AspNetCore.Security.Jwt.IdentityMicroservice.svg?branch=master)](https://travis-ci.com/VeritasSoftware/AspNetCore.Security.Jwt.IdentityMicroservice)
+
 ## Demonstrates Identity Microservice approach to micro services security.
 
 The solution implements an **Identity Microservice security architecture** using the package [**AspNetCore.Security.Jwt**](https://github.com/VeritasSoftware/AspNetCore.Security.Jwt).
