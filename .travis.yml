@@ -1,5 +1,5 @@
 ﻿language: csharp
-solution: XYZ.IdentityMicroservice.sln
+solution: IdentityMicroservice/IdentityMicroservice.sln
 mono: none
 dist: xenial
 sudo: required
