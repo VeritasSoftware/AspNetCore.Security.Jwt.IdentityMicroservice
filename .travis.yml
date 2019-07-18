@@ -5,8 +5,8 @@ dist: xenial
 sudo: required
 dotnet: 2.0.0
 script:
- - dotnet restore -p:RestoreUseSkipNonexistentTargets=false -nowarn:msb3202,nu1503
- - dotnet build
+ - dotnet restore IdentityMicroservice/IdentityMicroservice.sln
+ - dotnet build IdentityMicroservice/IdentityMicroservice.sln
 global:
     - DOTNET_SKIP_FIRST_TIME_EXPERIENCE=true
     - DOTNET_CLI_TELEMETRY_OPTOUT=1
