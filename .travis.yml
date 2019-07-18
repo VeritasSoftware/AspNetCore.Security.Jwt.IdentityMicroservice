@@ -5,7 +5,7 @@ dist: xenial
 sudo: required
 dotnet: 2.0.0
 script:
- - dotnet restore
+ - dotnet restore -p:RestoreUseSkipNonexistentTargets=false -nowarn:msb3202,nu1503
  - dotnet build
 global:
     - DOTNET_SKIP_FIRST_TIME_EXPERIENCE=true
